@@ -11,4 +11,11 @@
 /* ************************************************************************** */
 
 #include <stdio.h>
-
+int  countchar(void c)
+{
+  return (1);
+}
+int  countstr(char *str)
+{
+  return (ft_strlen(str);
+}
