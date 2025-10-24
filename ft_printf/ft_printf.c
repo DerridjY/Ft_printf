@@ -17,9 +17,13 @@
 int ft_printf(const char *format, ...)
 {
 	va_list parametertype;
-
-	va_start (parametertype, format);
+	int	i;
 	
-	if (format == char)
+	va_start (parametertype, format);
+	i = 0;
+	
+	if (format == %)
 		ft_putchar
+
+	va_end(parametertype);
 }
